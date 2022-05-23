@@ -52,12 +52,30 @@ img {
     min-height: 350px;
 }
 .activities-col {
+    
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    max-width: 30%;
+    max-width: 100%;
     margin: 1em;
 }
+.img-one {
+    background-image: url('https://images.vastsverige.com/publishedmedia/xhkcz96jkkdnnvnq3m3r/Sol_p-_H-kens-s.jpg');
+}
+
+.img-two {
+    background-image: url('https://images.vastsverige.com/publishedmedia/0pqk3jatezpo0u1b68wj/Kultur.jpg');
+}
+
+.img-three {
+    background-image: url('https://images.vastsverige.com/publishedmedia/lzk0lz2m1vikoklmobrn/Vandra.jpg');
+}
+.img-one, .img-two, .img-three {
+    background-position: center;
+    background-size: cover;
+    
+}
+
 /* ACTIVITIES SECTION END */
 
 /* GUIDE SECTION */

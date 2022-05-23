@@ -1,0 +1,68 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+main {
+    max-width: 720px;
+    min-height: auto;
+    margin: 0 auto;
+}
+img {
+    width: 100px;
+}
+
+/* HERO SECTION  */
+
+.hero-section {
+    border: 3px solid black;
+    background-image: url('https://images.vastsverige.com/publishedmedia/s6kavcozhnvvmi7dptup/Tidaholms_Turist_headerbild_knoppar_-2-.jpg');
+    background-size: cover;
+    background-position: center;
+    max-width: 720px;
+    min-height: 370px;
+}
+
+.hero-text {
+    color: #fff;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    max-width: 50%;
+    text-shadow: 0px 0px 4px black;
+
+} 
+
+/* HERO SECTION END */
+
+/* ACTIVITIES SECTION */
+.activities-main-section {
+    border: 3px solid black;
+    background-color: #F1FAEE;
+    min-height: 350px;
+}
+.activities-col {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+    margin: 1em;
+}
+/* ACTIVITIES SECTION END */
+
+/* GUIDE SECTION */
+.guide-section {
+    border: 3px solid black;
+    
+}
+/* GUIDE SECTION END */

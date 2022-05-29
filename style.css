@@ -29,7 +29,6 @@ a {
 /* HERO SECTION  */
 
 .hero-section {
-    border: 3px solid black;
     background-image: url('https://images.vastsverige.com/publishedmedia/s6kavcozhnvvmi7dptup/Tidaholms_Turist_headerbild_knoppar_-2-.jpg');
     background-size: cover;
     background-position: center;
@@ -40,7 +39,6 @@ a {
 .hero-text {
     color: #fff;
     margin: 0 auto;
-    border: 3px solid #fff;
     max-width: 50%;
     text-shadow: 0px 0px 4px black;
 
@@ -52,13 +50,11 @@ a {
 .activities-main-section {
     display: flex;
     justify-content: center;
-    border: 3px solid black;
     background-color: #F1FAEE;
     min-height: 265px;
 }
 .activities-col {
     display: inline-block;
-    border: 1px solid red;
     max-width: 33%;
     margin: 0.5em;
     padding: 0.5em;
@@ -76,7 +72,7 @@ a {
 /* ACTIVITIES SECTION END */
 
 /* GUIDE SECTION */
-.guide-section {
+.card {
     background-color: #A8DADC;
     border: 3px solid black;
     max-width: 400px;
@@ -84,11 +80,12 @@ a {
     margin: 50px auto;
     
 }
-.guide-section img {
+.card img {
     width: 180px;
     
 }
 /* GUIDE SECTION END */
+
 
 /* @media (prefers-color-scheme: dark) {
     body {

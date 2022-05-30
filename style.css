@@ -8,7 +8,7 @@ DARK BLUE: #1D3557
 
 */
 
-body {
+html, body {
     margin: 0 auto;
     padding: 0;
     text-align: center;
@@ -16,8 +16,10 @@ body {
 
 main {
     max-width: 720px;
-    min-height: auto;
+    min-height: 1000px;
     margin: 0 auto;
+    box-shadow:  4px 4px 5px 1px slategrey;
+
 }
 img {
     max-width: 100px;
@@ -34,6 +36,7 @@ a {
     background-position: center;
     max-width: 720px;
     min-height: 370px;
+    
 }
 
 .hero-text {
@@ -75,11 +78,13 @@ a {
 /* GUIDE SECTION */
 .card {
     background-color: #A8DADC;
-    border: 1px solid black;
+    border: hidden;
+    border-radius: 10px ;
     max-width: 400px;
     display: flex;
     margin: 50px auto;
     padding: 10px;
+    box-shadow: 4px 5px 14px 2px black;
 }
 .card img {
     object-fit: contain;
